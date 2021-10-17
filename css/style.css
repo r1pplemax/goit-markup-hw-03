@@ -297,7 +297,14 @@ body {
 }
 
 /* ==============portfolio=============== */
+.filter {
+  justify-content: center;
+  display: flex;
+}
 
+.filter-item {
+  margin-bottom: 50px;
+}
 .filter-btn {
   font-weight: 700;
   font-size: 16px;
@@ -310,6 +317,7 @@ body {
 }
 .filter-btn:focus,
 .filter-btn:hover {
+  cursor: pointer;
   color: var(--third-text-color);
   background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -317,6 +325,17 @@ body {
 }
 
 .portfolio-list {
+  margin-right: -30px;
+  margin-bottom: 94px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio-item {
+  flex-basis: calc(100% / 3 - 30px);
+  margin-right: 30px;
+  margin-bottom: 30px;
 }
 .portfolio-link {
 }
