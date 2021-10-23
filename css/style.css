@@ -313,6 +313,11 @@ body {
   display: flex;
 }
 
+.filter-item {
+  padding-right: 22px;
+  padding-left: 22px;
+}
+
 .filter-item:not(:last-child) {
   margin-right: 8px;
 }
